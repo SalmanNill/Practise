@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CUSTMIZE LIST</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+	<style type="text/css">
+
+		.course-list{
+			background-color:red;
+			padding: 10px;
+
+		}
+		
+		.course-list ul{
+			list-style-type: none;
+			/*list-style-position:inside;
+			list-style-image: url("tick.png");*/
+		}
+		.course-list li{
+			font-size: 1.2rem;
+
+		}
+		.course-list li::before{
+			content:'\f058';
+			font-family:'Font Awesome 5 Free';
+			font-weight: bold;
+			display: inline-block;
+			margin: 10px 5px;
+			font-size: 2rem;
+			color: teal;
+		}
+
+	</style>
+</head>
+
+<body>
+	<div class="course-list">
+		<ul>
+		<li>JAVA</li>
+		<li>ANDROID</li>
+		<li>PHP</li>
+		<li>JS</li>
+	</div>
+
+
+	</ul>
+
+</body>
+</html>

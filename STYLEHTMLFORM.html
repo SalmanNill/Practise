@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> FORM</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+	select{
+		width: 50px;
+		padding: 10px;
+		border: none;
+		background-color: tomato;
+		border-radius:10px;
+	}
+	#search{
+		background-image: url(search.png);
+		background-repeat: no-repeat;
+		background-position: 6px 15px;
+		font-size: 1rem;
+		background-color: gray;
+		padding: 15px 40px;
+		width: 150px;
+		transition: width 0.3s ease-in-out;
+
+
+	}
+	input[type="text"]{
+		width: 30%;
+		padding: 10px 20px;
+		font-size: 1rem;
+		margin: 20px 0;
+		box-sizing: border-box;
+		background-color: seagreen;
+		border: 3px solid black;
+		border-radius: 5px;
+	}
+
+	#search:focus{
+		background-color:sienna;
+		width: 100%
+	}
+	textarea{
+		resize: none;
+		width: 50px;
+		padding: 20px;
+		border: 3px gray solid;
+		border-radius: 10px;
+
+
+	}
+	input[type="button"]{
+		width: 100px;
+		border: none;
+		background-color:indianred;
+		color: whitesmoke;
+		padding: 10px;
+		cursor: pointer;
+	}
+	input[type="reset"]{
+		width: 100px;
+		border: none;
+		background-color:indianred;
+		color: whitesmoke;
+		padding: 10px;
+		cursor: pointer;
+	}
+
+	
+		
+	</style>
+
+</head>
+<body>
+
+	<form action="">
+		<select name="subject_name" id="subject">
+			<option value="c">C program</option>
+			<option value="c++">C++ program</option>
+			<option value="Java">java program</option>
+			<option value="HTML">HTML program</option>
+			<option value="Ruby">Ruby program</option>
+			<option value="Python">Python program</option>
+		</select><br><br>
+		<label for="search">Search:</label>
+		<input type="text" name="search" placeholder="search" id="search"><br><br><br>
+		<label for="FIRSTNAME">FIRSTNAME:</label>
+		<input type="text" name="FName" id="FName"><br>
+		<label for="LASTNAME">LASTNAME:</label>
+		<input type="text" name="LName" id="LName"><br>
+		<label for="Password">Password:</label>
+		<input type="password" name="password" id="password"><br><br>
+
+		<textarea name="comments" id="comment" cols="30" rows="10">Write your comments</textarea><br>
+
+		<input type="button" value="Submit" name="">
+
+		<input type="reset" value="reset">
+
+
+		
+	</form>
+	
+
+</body>
+</html>
